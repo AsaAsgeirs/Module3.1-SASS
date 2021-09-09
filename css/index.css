@@ -26,3 +26,27 @@ hr {
 img {
   max-width: 100%;
 }
+
+.test {
+  color: #326dee;
+}
+
+.card {
+  display: block;
+  background-color: #1ac888;
+  padding: 10rem;
+  border: 5px solid #eef923;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+.card .card-title {
+  font-size: 4rem;
+  padding-bottom: 10rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
+}
